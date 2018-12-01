@@ -1,0 +1,18 @@
+diff --git c/man/pdfpc.in w/man/pdfpc.in
+index f0abcad..fac70ea 100644
+--- c/man/pdfpc.in
++++ w/man/pdfpc.in
+@@ -70,3 +70,3 @@ Use custom pdfpc file.
+ .BI "\-1, \-\-presenter\-screen"=OUTPUT
+-Screen to be used for the presenter (output name).
++Screen to be used for the presenter (output name, see e.g. "xrandr --listmonitors").
+ .TP
+diff --git c/man/pdfpcrc.in w/man/pdfpcrc.in
+index 4056b59..0ba71d6 100644
+--- c/man/pdfpcrc.in
++++ w/man/pdfpcrc.in
+@@ -98,3 +98,3 @@ Set the initial pointer size, in pixels (int, default is 10).
+ .B presentation-screen
+-Screen to be used for the presentation (output name).
++Screen to be used for the presentation (output name, see e.g. "xrandr --listmonitors").
+ .TP
