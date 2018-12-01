@@ -1,3 +1,5 @@
+Interdiff v1..v2:
+
 diff --git c/man/pdfpc.in w/man/pdfpc.in
 index f0abcad..fac70ea 100644
 --- c/man/pdfpc.in
