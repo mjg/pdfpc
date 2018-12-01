@@ -1,0 +1,26 @@
+diff --git c/man/pdfpc.in w/man/pdfpc.in
+index f0abcad..fac70ea 100644
+--- c/man/pdfpc.in
++++ w/man/pdfpc.in
+@@ -68,7 +68,7 @@ Go to a specific page directly after startup. In case of overlays, the first sli
+ Use custom pdfpc file.
+ .TP
+ .BI "\-1, \-\-presenter\-screen"=OUTPUT
+-Screen to be used for the presenter (output name).
++Screen to be used for the presenter (output name, see e.g. "xrandr --listmonitors").
+ .TP
+ .BI "\-2, \-\-presentation\-screen"=OUTPUT
+ Screen to be used for the presentation (output name).
+diff --git c/man/pdfpcrc.in w/man/pdfpcrc.in
+index 4056b59..0ba71d6 100644
+--- c/man/pdfpcrc.in
++++ w/man/pdfpcrc.in
+@@ -96,7 +96,7 @@ Set the pointer opacity in percent (int, default is 50).
+ Set the initial pointer size, in pixels (int, default is 10).
+ .TP
+ .B presentation-screen
+-Screen to be used for the presentation (output name).
++Screen to be used for the presentation (output name, see e.g. "xrandr --listmonitors").
+ .TP
+ .B presenter-screen
+ Screen to be used for the presenter (output name).
